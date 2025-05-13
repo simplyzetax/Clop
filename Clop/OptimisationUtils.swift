@@ -1919,22 +1919,26 @@ enum ClipboardType: Equatable {
 }
 
 #if !SETAPP
-    import LowtechPro
+import LowtechPro
 
-    @discardableResult @inline(__always)
-    @MainActor func proGuard<T>(count: inout Int, limit: Int = 5, url: URL? = nil, _ action: @escaping () async throws -> T) async throws -> T {
-        guard !BM.decompressingBinaries else { throw ClopError.decompressingBinariesError }
-        guard proactive || count < limit, meetsInternalRequirements() else {
-            if let url {
-                OM.skippedBecauseNotPro = OM.skippedBecauseNotPro.with(url)
-            }
-            proLimitsReached(url: url)
-            throw ClopError.proError("Pro limits reached")
-        }
-        let result = try await action()
-        count += 1
-        return result
+@discardableResult
+@inline(__always)
+@MainActor
+func proGuard<T>(
+    count: inout Int,
+    limit: Int = 5,
+    url: URL? = nil,
+    _ action: @escaping () async throws -> T
+) async throws -> T {
+    guard !BM.decompressingBinaries else {
+        throw ClopError.decompressingBinariesError
     }
+
+    // Pro is always enabled: skip limit and proactive checks
+    let result = try await action()
+    count += 1
+    return result
+}
 #else
     import Setapp
 

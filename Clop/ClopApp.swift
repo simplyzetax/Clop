@@ -276,7 +276,7 @@ class AppDelegate: AppDelegateParent {
             paddleVendorID = "122873"
             paddleAPIKey = "e1e517a68c1ed1bea2ac968a593ac147"
             paddleProductID = "841006"
-            trialDays = 14
+            trialDays = 356
             trialText = "This is a trial for the Pro features. After the trial, the app will automatically revert to the free version."
             price = 15
             productName = "Clop Pro"
@@ -292,13 +292,11 @@ class AppDelegate: AppDelegateParent {
             KM.primaryKeys = Defaults[.enabledKeys] + Defaults[.quickResizeKeys]
             KM.onPrimaryHotkey = { key in
                 self.handleHotkey(key)
-                let _ = checkInternalRequirements(PRODUCTS, nil)
             }
 
             KM.secondaryKeyModifiers = [.lcmd]
             KM.onSecondaryHotkey = { key in
                 self.handleCommandHotkey(key)
-                let _ = checkInternalRequirements(PRODUCTS, nil)
             }
         }
         super.applicationDidFinishLaunching(_: notification)
@@ -400,7 +398,6 @@ class AppDelegate: AppDelegateParent {
             .store(in: &observers)
         initMachPortListener()
 
-        let _ = checkInternalRequirements(PRODUCTS, nil)
         setupServiceProvider()
         startShortcutWatcher()
         DROPSHARE.fetchAppURL()
@@ -858,8 +855,6 @@ class AppDelegate: AppDelegateParent {
         if Defaults[.enableClipboardOptimiser], !Defaults[.pauseAutomaticOptimisations] {
             initClipboardOptimiser()
         }
-
-        let _ = checkInternalRequirements(PRODUCTS, nil)
     }
 
     @MainActor func initClipboardOptimiser() {
@@ -1514,12 +1509,9 @@ struct ClopApp: App {
     }
 }
 
-@inline(__always) var proactive: Bool {
-    #if !SETAPP
-        (PRO?.productActivated ?? false) || (PRO?.onTrial ?? false)
-    #else
-        true
-    #endif
+@inline(__always)
+var proactive: Bool {
+    true
 }
 
 import ObjectiveC.runtime

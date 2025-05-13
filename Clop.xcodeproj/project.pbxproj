@@ -22,7 +22,6 @@
 		C71AAAD82D2D500300CA86D9 /* PresetZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AAAD72D2D500300CA86D9 /* PresetZones.swift */; };
 		C71AAAD92D2D500300CA86D9 /* PresetZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AAAD72D2D500300CA86D9 /* PresetZones.swift */; };
 		C71AAAE62D2D8AB200CA86D9 /* BatchCropButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7976AC72B07B87D00C4246A /* BatchCropButton.swift */; };
-		C71AAAE72D2D8AB200CA86D9 /* required.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A212AB6F6A200AF8EDC /* required.swift */; };
 		C71AAAE82D2D8AB200CA86D9 /* Optimisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B5F332AC1B56C00345739 /* Optimisable.swift */; };
 		C71AAAE92D2D8AB200CA86D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB6626288301590041BEC8 /* ContentView.swift */; };
 		C71AAAEA2D2D8AB200CA86D9 /* PresetZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AAAD72D2D500300CA86D9 /* PresetZones.swift */; };
@@ -90,7 +89,6 @@
 		C73802072BDCD76D001BEE6C /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73802062BDCD76D001BEE6C /* CompareView.swift */; };
 		C73802082BDCD773001BEE6C /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73802062BDCD76D001BEE6C /* CompareView.swift */; };
 		C7548E7F2B2B9C390002E03D /* Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A48ED2B1A06AD00C266DE /* Colorize.swift */; };
-		C75FD1BA2AF4324C000B426B /* required.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A212AB6F6A200AF8EDC /* required.swift */; };
 		C75FD1BB2AF4324C000B426B /* Optimisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B5F332AC1B56C00345739 /* Optimisable.swift */; };
 		C75FD1BC2AF4324C000B426B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB6626288301590041BEC8 /* ContentView.swift */; };
 		C75FD1BD2AF4324C000B426B /* RightClickMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB38CA2AC5B10300F299CE /* RightClickMenu.swift */; };
@@ -179,7 +177,6 @@
 		C7C8AD602ABC78CF003ECDE6 /* Clop - image.shortcut in Resources */ = {isa = PBXBuildFile; fileRef = C7C8AD5D2ABC78CF003ECDE6 /* Clop - image.shortcut */; };
 		C7C8AD622ABC9B34003ECDE6 /* Upload to SSH server.shortcut in Resources */ = {isa = PBXBuildFile; fileRef = C7C8AD612ABC9B34003ECDE6 /* Upload to SSH server.shortcut */; };
 		C7D9200C288FE1D200FA0C83 /* FloatingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9200B288FE1D200FA0C83 /* FloatingResult.swift */; };
-		C7DF1A222AB6F6A200AF8EDC /* required.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A212AB6F6A200AF8EDC /* required.swift */; };
 		C7DF1A282AB8885600AF8EDC /* Ignore in Frameworks */ = {isa = PBXBuildFile; productRef = C7DF1A272AB8885600AF8EDC /* Ignore */; };
 		C7DF1A2A2ABB0E9A00AF8EDC /* Automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A292ABB0E9A00AF8EDC /* Automation.swift */; };
 		C7E1F5912C58122F00F83036 /* lrzip in Resources */ = {isa = PBXBuildFile; fileRef = C73802042BD1B81A001BEE6C /* lrzip */; };
@@ -394,7 +391,6 @@
 		C7C8AD5D2ABC78CF003ECDE6 /* Clop - image.shortcut */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Clop - image.shortcut"; sourceTree = "<group>"; };
 		C7C8AD612ABC9B34003ECDE6 /* Upload to SSH server.shortcut */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Upload to SSH server.shortcut"; sourceTree = "<group>"; };
 		C7D9200B288FE1D200FA0C83 /* FloatingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingResult.swift; sourceTree = "<group>"; };
-		C7DF1A212AB6F6A200AF8EDC /* required.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = required.swift; sourceTree = "<group>"; };
 		C7DF1A292ABB0E9A00AF8EDC /* Automation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Automation.swift; sourceTree = "<group>"; };
 		C7EFD28B2B22577100A6D843 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -551,7 +547,6 @@
 				C70B5F332AC1B56C00345739 /* Optimisable.swift */,
 				C7760AC02A5E957700851F8C /* OptimisationUtils.swift */,
 				C7333E462A98C90500B1D5BE /* PDF.swift */,
-				C7DF1A212AB6F6A200AF8EDC /* required.swift */,
 				C78B2A012AD1F02E00B6A19B /* ResolutionField.swift */,
 				C7AB38CA2AC5B10300F299CE /* RightClickMenu.swift */,
 				C7760AC22A5FF89B00851F8C /* Settings.swift */,
@@ -970,7 +965,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71AAAE62D2D8AB200CA86D9 /* BatchCropButton.swift in Sources */,
-				C71AAAE72D2D8AB200CA86D9 /* required.swift in Sources */,
 				C71AAAE82D2D8AB200CA86D9 /* Optimisable.swift in Sources */,
 				C71AAAE92D2D8AB200CA86D9 /* ContentView.swift in Sources */,
 				C71AAAEA2D2D8AB200CA86D9 /* PresetZones.swift in Sources */,
@@ -1007,7 +1001,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C70DA8E62B0D1FF900DC9F8E /* BatchCropButton.swift in Sources */,
-				C75FD1BA2AF4324C000B426B /* required.swift in Sources */,
 				C75FD1BB2AF4324C000B426B /* Optimisable.swift in Sources */,
 				C75FD1BC2AF4324C000B426B /* ContentView.swift in Sources */,
 				C71AAAD82D2D500300CA86D9 /* PresetZones.swift in Sources */,
@@ -1078,7 +1071,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7976AC82B07B87D00C4246A /* BatchCropButton.swift in Sources */,
-				C7DF1A222AB6F6A200AF8EDC /* required.swift in Sources */,
 				C70B5F342AC1B56C00345739 /* Optimisable.swift in Sources */,
 				C7AB6627288301590041BEC8 /* ContentView.swift in Sources */,
 				C71AAAD92D2D500300CA86D9 /* PresetZones.swift in Sources */,
@@ -1155,7 +1147,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.9.3;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -1190,7 +1182,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.9.3;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -1505,7 +1497,7 @@
 				CODE_SIGN_ENTITLEMENTS = ClopCLI/ClopCLI.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -1531,7 +1523,7 @@
 				CODE_SIGN_ENTITLEMENTS = ClopCLI/ClopCLI.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -1676,12 +1668,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Clop/Clop.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.9.3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Clop/Preview Content\"";
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1720,12 +1713,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Clop/Clop.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.9.3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Clop/Preview Content\"";
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = NCTKZQMBR3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
